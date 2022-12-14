@@ -1,0 +1,34 @@
+:root{
+    --bs-dark:#1c1c1c;
+    --bs-dark-rgb: 28,28,28;
+    --bs-secondary: #6c757d;
+    --bs-secondary-rgb: 161,161,157;
+    --bs-success: #198754;
+    --bs-success-rgb: 22,117,76;
+    --bs-light: #fff;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:link,
+.navbar-nav .nav-link:visited{
+    color: var(--bs-light);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active{
+    background-color: var(--bs-success);
+    color: var(--bs-dark);
+}
+
+.btn-success {
+    --bs-btn-bg: var(--bs-success);
+    --bs-btn-border-color:var(--bs-success);
+    --bs-btn-hover-bg:var(--bs-success);
+    --bs-btn-hover-border-color:var(--bs-success);
+    --bs-btn-active-bg: var(--bs-success);
+    --bs-btn-active-border-color: var(--bs-success);
+    --bs-btn-disabled-bg: var(--bs-success);
+    --bs-btn-disabled-border-color: var(--bs-success);
+}
+
