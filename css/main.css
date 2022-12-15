@@ -21,7 +21,7 @@
     color: var(--bs-dark);
 }
 
-.btn-success {
+.btn-success{
     --bs-btn-bg: var(--bs-success);
     --bs-btn-border-color:var(--bs-success);
     --bs-btn-hover-bg:var(--bs-success);
@@ -32,3 +32,21 @@
     --bs-btn-disabled-border-color: var(--bs-success);
 }
 
+.banner,footer{
+    background-color: var(--bs-dark);
+}
+
+.btn-outline-success {
+    --bs-btn-color: var(--bs-success);
+    --bs-btn-border-color:var(--bs-success);
+    --bs-btn-hover-bg: var(--bs-success);
+    --bs-btn-hover-border-color: var(--bs-success);
+    --bs-btn-active-bg: var(--bs-success);
+    --bs-btn-active-border-color: var(--bs-success);
+    --bs-btn-disabled-color:var(--bs-success)4;
+    --bs-btn-disabled-border-color:var(--bs-success);   
+}
+
+a{
+    color: inherit;
+}
