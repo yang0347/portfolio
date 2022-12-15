@@ -67,7 +67,11 @@
       <div class="container-xl">
         <div class="row">
           <div class="col-4 p-4">
-            <img class="img-thumbnail rounded-5" src="images/myself.jpg" alt="image of myself">
+            <picture>
+              <source media="(min-width:650px)" srcset="images/p300.jpg">
+              <source media="(max-width:650px)" srcset="images/p600.jpg">
+              <img class="img-thumbnail rounded-5" src="images/myself.jpg" alt="image of myself">
+            </picture>
           </div>
           <div class="col-6 bg-opacity-75 text-light p-4">
             <h2 class="display-4">ABOUT ME</h2>
